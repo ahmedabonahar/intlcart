@@ -1,0 +1,43 @@
+<div id="about" class="about-area ptb-100">
+    <div class="container">
+        <div class="section-title">
+            <h2>عن  <span>إنتل كارت</span></h2>
+            <p>تأسست انتل كارت  Intlcart بأهداف طموحة لتوفير حلول تكنولوجيا المعلومات على شبكة الإنترنت التي تساعد في تحويل سوق قطاع السيارات إلى حلول رقمية جديدة لعملائنا من خلال تطويع تقنيات الذكاء الاصطناعي (AI) وانترنت الأشياء (IoT) في المملكة العربية السعودية. بالإضافة إلى المشاريع الخاصة بالقطاعات الحكومية والشركات.
+            </p>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-content">
+                    <!-- <div class="section-title">
+                        <h2>نحن رواد فى مجال تطوير ورقمنة سوق بيع قطع غيار السيارات</h2>
+                        <p>تأسست انتل كارت  Intlcart بأهداف طموحة لتوفير حلول تكنولوجيا المعلومات على شبكة الإنترنت التي تساعد في تحويل سوق قطاع السيارات إلى حلول رقمية جديدة لعملائنا من خلال تطويع تقنيات الذكاء الاصطناعي (AI) وانترنت الأشياء (IoT) في المملكة العربية السعودية. بالإضافة إلى المشاريع الخاصة بالقطاعات الحكومية والشركات.
+                        </p>
+                    </div> -->
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i>حلول تتناسب مع كل العملاء</li>
+                        <li><i class="fas fa-check"></i>التصميم الإبداعي</li>
+                        <li><i class="fas fa-check"></i>تصميم عصري </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-video">
+                    <img src="assets/img/about-vedio.png" alt="about">
+                    <div class="video-btn">
+                        <button class="popup-youtube" (click)="ngxSmartModalService.getModal('popupOne').open()"><i class="fas fa-play"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="video-popup">
+    <ngx-smart-modal #popupOne [identifier]="'popupOne'">
+        <!-- <iframe src="https://www.youtube.com/embed/WQ119jAN4Xo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <video width="600" height="600" controls>
+            <source src="https://cdn.warshahtech.net/intlcart.mp4" type="video/mp4">
+            <!-- <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag. -->
+          </video>
+    </ngx-smart-modal>
+</div>
